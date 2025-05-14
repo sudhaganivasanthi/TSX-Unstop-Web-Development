@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6910516a; /* Light grey */
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212529 !important; /* Dark */
+}
+
+.navbar a.nav-link {
+  color: #fff !important;
+}
+
+/* Hero Section with Background Image */
+header {
+  background: url('../images/background.jpg') no-repeat center center/cover;
+  color: rgba(172, 5, 166, 0.275);
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6); /* Dark overlay */
+  z-index: 1;
+}
+
+header * {
+  position: relative;
+  z-index: 2;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+header p {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+}
+
+section:nth-child(even) {
+  background-color: #ffffff;
+}
+
+section:nth-child(odd) {
+  background-color: #e9ecef;
+}
+
+/* Cards (Projects) */
+.card {
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Buttons */
+.btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+/* Forms */
+form input, form textarea {
+  border-radius: 8px;
+}
+
+/* Contact Links */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
