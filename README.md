@@ -40,10 +40,6 @@ TSX-Unstop-Web-Development/
 
 > http://127.0.0.1:5500/
 
-🌐 Live Demo
-
-[👉 View Live Project](https://sudhaganivasanthi.github.io/TSX-Unstop-Web-Development/)
-
 ---
 
 🛠️ Technologies Used
@@ -57,5 +53,5 @@ TSX-Unstop-Web-Development/
 
 🧑‍🎓 Author
 
-**SudhaGanivasanthi**  
+**Sudhagani Vasanthi**  
 [GitHub](https://github.com/sudhaganivasanthi)
